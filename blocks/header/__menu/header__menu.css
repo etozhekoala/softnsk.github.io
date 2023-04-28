@@ -1,6 +1,8 @@
 .header__menu {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 60px;
   list-style-type: none;
@@ -12,10 +14,8 @@
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .header__menu {
     display: none;
   }
 }
-

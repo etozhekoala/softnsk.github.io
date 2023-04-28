@@ -2,6 +2,7 @@
   margin: 0 auto;
   width: 100%;
   padding: 120px 0 150px 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-image: url(../../image/order__background.jpg);
   background-size: cover;

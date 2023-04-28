@@ -1,4 +1,5 @@
 .header__menu-button_type_opened {
+  -webkit-transform: rotate(40deg);
   transform: rotate(40deg);
   background-color: #43ABF0;
 }
@@ -9,6 +10,7 @@
 
 .header__menu-button_type_opened:after {
   width: 30px;
+  -webkit-transform: translate(0, -8px) rotate(-80deg);
   transform: translate(0, -8px) rotate(-80deg);
   background-color: #43ABF0;
 }

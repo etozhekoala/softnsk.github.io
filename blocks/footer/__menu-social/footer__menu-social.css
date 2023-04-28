@@ -1,9 +1,15 @@
 .footer__menu-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 38px;
   margin: 0;
   padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   list-style-type: none;
 }

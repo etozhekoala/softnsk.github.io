@@ -1,4 +1,5 @@
 .order__path-svg {
+  -webkit-transition: fill .3s ease;
   transition: fill .3s ease;
 }
 

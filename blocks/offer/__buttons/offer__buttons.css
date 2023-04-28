@@ -1,4 +1,6 @@
 .offer__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }

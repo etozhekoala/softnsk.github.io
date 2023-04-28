@@ -1,5 +1,6 @@
 .order__item-img {
   max-width: 55px;
   height: auto;
+  -o-object-fit: contain;
   object-fit: contain;
 }

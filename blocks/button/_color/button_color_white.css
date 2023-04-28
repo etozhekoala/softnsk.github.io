@@ -3,6 +3,7 @@
   color: #2A2B30;
   background-color: #fff;
   border: 1px solid #7b6d6d;
+  -webkit-transition: opacity .3s ease;
   transition: opacity .3s ease;
 }
 

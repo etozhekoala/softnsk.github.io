@@ -2,6 +2,7 @@
   border: none;
   color: #fff;
   background-color: #3E9CDC;
+  -webkit-transition: opacity .3s ease;
   transition: opacity .3s ease;
 }
 

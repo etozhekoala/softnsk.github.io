@@ -6,13 +6,13 @@
   background-image: url(../../../image/logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: opacity .3s ease;
   transition: opacity .3s ease;
 }
 
 .header__logo:hover {
   opacity: .7;
 }
-
 
 @media screen and (max-width: 1023px) {
   .header__logo {

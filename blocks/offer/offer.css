@@ -3,6 +3,7 @@
   height: 100%;
   margin: 0 auto;
   padding: 203px 0 202px 0;
+  -webkit-box-sizing:  border-box;
   box-sizing:  border-box;
   background-image: url(../../image/offer__background.jpg);
   background-position: top center;

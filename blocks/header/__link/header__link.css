@@ -5,6 +5,7 @@
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
+  -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
 

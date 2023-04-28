@@ -1,0 +1,7 @@
+.order__path-svg {
+  transition: fill .3s ease;
+}
+
+.order__label-load-file:hover .order__path-svg_type_hover {
+  fill: #fff;
+}

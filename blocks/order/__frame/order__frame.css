@@ -1,0 +1,23 @@
+.order__frame {
+  max-width: 1172px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .order__frame {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .order__frame {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order__frame {
+    padding: 0 16px;
+  }
+}

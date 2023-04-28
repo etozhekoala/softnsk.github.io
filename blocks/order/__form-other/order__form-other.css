@@ -1,0 +1,13 @@
+.order__form-other {
+  display: grid;
+  grid-template-columns: minmax(300px, 770px) minmax(300px, 370px);
+  gap: 32px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .order__form-other {
+    grid-template-columns: 1fr;
+  }
+}

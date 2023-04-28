@@ -1,0 +1,26 @@
+.offer__information {
+  display: flex;
+  gap: 80px;
+  margin: 0 auto;
+  max-width: 1172px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer__information {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .offer__information {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer__information {
+    padding: 0 16px;
+  }
+}

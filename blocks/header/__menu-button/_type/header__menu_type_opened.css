@@ -1,0 +1,14 @@
+.header__menu-button_type_opened {
+  transform: rotate(40deg);
+  background-color: #43ABF0;
+}
+
+.header__menu-button_type_opened:before {
+  display: none;
+}
+
+.header__menu-button_type_opened:after {
+  width: 30px;
+  transform: translate(0, -8px) rotate(-80deg);
+  background-color: #43ABF0;
+}

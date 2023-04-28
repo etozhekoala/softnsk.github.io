@@ -1,0 +1,28 @@
+.footer__nav {
+  max-width: 1172px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__nav {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__nav {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

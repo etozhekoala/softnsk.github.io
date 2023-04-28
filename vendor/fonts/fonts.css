@@ -1,0 +1,27 @@
+@font-face {
+  src: url('./lato/Lato-Regular.ttf') format('ttf');
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./lato/Lato-SemiBold.ttf') format('ttf');
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url('./lato/Lato-Bold.ttf') format('ttf');
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('./lato/Lato-ExtraBold.ttf') format('ttf');
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+}

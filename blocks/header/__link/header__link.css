@@ -1,0 +1,13 @@
+.header__link {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15.6px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: color .3s ease;
+}
+
+.header__link:hover {
+  color: #43ABF0;
+}

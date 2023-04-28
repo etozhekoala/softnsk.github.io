@@ -1,0 +1,21 @@
+.order__input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 48px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: background-color .3s ease;
+  cursor: pointer;
+}
+
+.order__input-wrapper:hover {
+  background-color: rgba(61, 64, 80, .85);
+}
+
+@media screen and (max-width: 767px) {
+  .order__input-wrapper {
+    text-align: center;
+  }
+}

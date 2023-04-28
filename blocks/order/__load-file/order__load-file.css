@@ -1,0 +1,5 @@
+.order__load-file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}

@@ -1,0 +1,28 @@
+.footer__menu-link {
+  display: flex;
+  gap: 38px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__menu-link:before {
+  content: "";
+  width: 1px;
+  height: 18px;
+  background-color: #C3C3C3;
+}
+
+.footer__menu-link:after {
+  content: "";
+  width: 1px;
+  height: 18px;
+  background-color: #C3C3C3;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__menu-link {
+    gap: 10px;
+  }
+}

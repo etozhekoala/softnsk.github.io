@@ -1,0 +1,26 @@
+.header__nav {
+  max-width: 1172px;
+  margin: 0 auto;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__nav {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__nav {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav {
+    padding: 0 16px;
+  }
+}

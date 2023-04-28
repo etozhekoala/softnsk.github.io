@@ -1,0 +1,13 @@
+.order__input-item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  cursor: pointer;
+  padding-left: 10px;
+  transition: color .3s ease;
+}
+
+.order__input-item:hover {
+  color: #42A9ED;
+}

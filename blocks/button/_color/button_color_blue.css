@@ -1,0 +1,10 @@
+.button_color_blue {
+  border: none;
+  color: #fff;
+  background-color: #3E9CDC;
+  transition: opacity .3s ease;
+}
+
+.button_color_blue:hover {
+  opacity: .8;
+}

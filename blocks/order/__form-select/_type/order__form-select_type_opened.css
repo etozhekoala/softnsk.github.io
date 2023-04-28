@@ -1,0 +1,10 @@
+.order__form-select_type_opened {
+  color: #fff;
+  background-color: rgba(61, 64, 80, .85);
+  border: 1px;
+  border-radius: 3px 3px 0 0;
+}
+
+.order__form-select_type_opened:after {
+  background-image: url(../../../../image/icon__arrow-white.svg); 
+}

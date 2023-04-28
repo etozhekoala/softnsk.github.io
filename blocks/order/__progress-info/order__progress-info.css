@@ -1,0 +1,8 @@
+.order__progress-info {
+  display: flex;
+  width: 100%;
+  padding-bottom: 11px;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}

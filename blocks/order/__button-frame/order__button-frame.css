@@ -1,0 +1,7 @@
+.order__button-frame {
+  display: flex;
+  padding-top: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,15 @@
+.footer__menu-social {
+  display: flex;
+  gap: 38px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__menu-social {
+    gap: 10px;
+  }
+}

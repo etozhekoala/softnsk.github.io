@@ -1,0 +1,14 @@
+.order__count {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: #fff;
+}
+
+.order__count:after {
+  content: ' %';
+}

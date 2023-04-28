@@ -1,0 +1,30 @@
+.order__item-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #286690;
+  background-color: #3E9CDC;
+  position: relative;
+}
+
+.order__item-circle:before {
+  content: "";
+  position: absolute;
+  width: 108px;
+  height: 6px;
+  top: 50%;
+  left: -122px;
+  background-image: url(../../../image/icon__points.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .order__item-circle:before {
+    display: none;
+  }
+}
+ 

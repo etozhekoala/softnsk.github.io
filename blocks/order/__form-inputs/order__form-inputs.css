@@ -1,0 +1,12 @@
+.order__form-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .order__form-inputs {
+    grid-template-columns: repeat(auto-fill, 100%)
+  }
+}

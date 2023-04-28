@@ -57,20 +57,22 @@
             adipiscing
           </span>
         </h1>
-        <ul class="offer__offer-list">
-          <p class="offer__offer-text">
+        <div class="offer__text">
+          <p class="offer__offer-subtitle">
             At vero eos et accusamus et iusto odio dignissimos ducimus!
           </p>
-          <li class="offer__item">
-            Totam rem aperiam eaque ipsa
-          </li>
-          <li class="offer__item">
-            Sit voluptatem accusantium doloremque laudantiom
-          </li>
-          <li class="offer__item">
-            Sed ut perspiciatis, unde omnis iste natus error
-          </li>
-        </ul>
+          <ul class="offer__offer-list">
+            <li class="offer__item">
+              Totam rem aperiam eaque ipsa
+            </li>
+            <li class="offer__item">
+              Sit voluptatem accusantium doloremque laudantiom
+            </li>
+            <li class="offer__item">
+              Sed ut perspiciatis, unde omnis iste natus error
+            </li>
+          </ul>
+        </div>
         <div class="offer__buttons">
           <button class="button button_size_m button_color_blue">
             Заказать
@@ -194,7 +196,7 @@
                 name="range-label"
                 type="range" 
                 value="75"
-                main="0"
+                min="0"
                 max="100"
                 step="1"
                 class="order__progress-line">
@@ -203,7 +205,6 @@
                 <input
                   name="load"
                   type="file"
-                  placeholder="Прикрепите файл"
                   id="order__load-file"
                   class="order__load-file">
                 <label 
@@ -245,7 +246,7 @@
           <p
             class="footer__wallet-item footer__wallet-item_type_qiwi">
             QIWI wallet
-          </a>
+          </p>
         </li>
         <li>
           <p

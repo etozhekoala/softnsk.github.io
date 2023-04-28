@@ -1,4 +1,4 @@
-.footer__menu-link {
+.footer__menu-wallet {
   display: flex;
   gap: 38px;
   margin: 0;
@@ -7,14 +7,14 @@
   list-style-type: none;
 }
 
-.footer__menu-link:before {
+.footer__menu-wallet:before {
   content: "";
   width: 1px;
   height: 18px;
   background-color: #C3C3C3;
 }
 
-.footer__menu-link:after {
+.footer__menu-wallet:after {
   content: "";
   width: 1px;
   height: 18px;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .footer__menu-link {
+  .footer__menu-wallet {
     gap: 10px;
   }
 }

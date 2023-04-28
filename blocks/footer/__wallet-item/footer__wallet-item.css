@@ -1,0 +1,26 @@
+.footer__wallet-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #C3C3C3;
+  text-decoration: none;
+  transition: opacity .3s ease;
+  cursor: pointer;
+}
+
+.footer__wallet-item:hover {
+  opacity: .7;
+}
+
+.footer__wallet-item:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}

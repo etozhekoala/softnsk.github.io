@@ -62,11 +62,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__copy/footer__copy.css);
-@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__menu-wallet/footer__menu-wallet.css);
+@import url(../blocks/footer/__wallet-item/footer__wallet-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/_type/footer__link_type_qiwi.css);
-@import url(../blocks/footer/__link/_type/footer__link_type_yandex.css);
-@import url(../blocks/footer/__link/_type/footer__link_type_web-money.css);
+@import url(../blocks/footer/__wallet-item/_type/footer__wallet-item_type_qiwi.css);
+@import url(../blocks/footer/__wallet-item/_type/footer__wallet-item_type_yandex.css);
+@import url(../blocks/footer/__wallet-item/_type/footer__wallet-item_type_web-money.css);
 @import url(../blocks/footer/__menu-social/footer__menu-social.css);
 @import url(../blocks/footer/__link/_type/footer__link_type_mail.css);
 @import url(../blocks/footer/__link/_type/footer__link_type_vk.css);
